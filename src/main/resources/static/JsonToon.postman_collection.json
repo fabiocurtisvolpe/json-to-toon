@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "52a1ef55-fde5-47bb-8c97-fb723f3e8af9",
+		"name": "JsonToon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22368349",
+		"_collection_link": "https://fattocs-sibce.postman.co/workspace/sibce-Workspace~f07216ff-1aac-409d-881b-0fa5aac6a400/collection/22368349-52a1ef55-fde5-47bb-8c97-fb723f3e8af9?action=share&source=collection_link&creator=22368349"
+	},
+	"item": [
+		{
+			"name": "convert",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"users\": [\r\n    { \"id\": 1, \"name\": \"Alice\", \"role\": \"admin\" },\r\n    { \"id\": 2, \"name\": \"Bob\", \"role\": \"user\" }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/toon/convert",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"toon",
+						"convert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "convert-raw",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/toon/convert-raw",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"toon",
+						"convert-raw"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
