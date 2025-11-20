@@ -1,0 +1,1 @@
+O formato TOON é projetado para reduzir o consumo de tokens em LLMs (como GPT-4, Claude) em cerca de 30-60% comparado ao JSON, removendo a verbosidade de chaves, aspas e vírgulas repetitivas, transformando arrays de objetos em uma estrutura tabular limpa.
